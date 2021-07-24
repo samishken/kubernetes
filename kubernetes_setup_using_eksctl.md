@@ -46,13 +46,13 @@ You can follow same procedure in the official  AWS document [Getting started wit
    
    example:
    eksctl create cluster --name valaxy-cluster \
-      --region ap-south-1 \
+      --region us-east-1 \
    --node-type t2.small \
     ```
 
 5. To delete the EKS clsuter 
    ```sh 
-   eksctl delete cluster valaxy --region ap-south-1
+   eksctl delete cluster anfield --region us-east-1
    ```
    
 6. Validate your cluster using by creating by checking nodes and by creating a pod 
